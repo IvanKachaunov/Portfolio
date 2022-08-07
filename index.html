@@ -13,7 +13,24 @@
 <body>
     
     <div class="nav-container">
-        <div class="logo"><img src="" alt="">Personal Portfolio</div>
+        <div class="logo"><img src="" alt="">Programming Portfolio</div>
+        <ul>
+            <li><a href="#main-content">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#particles-js">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="allign-nav">
+        <div class="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        </div>
+    </div>
+    <div class="mobile-nav-menu" style="display: none;">
         <ul>
             <li><a href="#main-content">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -30,7 +47,7 @@
 
     <div id="about">
         <div class="about-me-content">
-            <img src="./images/IMG00315.JPG" height="600px" width="400px" alt="">
+            <img src="./images/IMG00315.JPG" class="image-about-me" alt="">
             <div class="about-me-info">
             <h1 id="title">Frontend and Fullstack Developer.</h1>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sint fugit dolore quisquam, esse odio aspernatur consequatur praesentium expedita maiores.</h2>
@@ -41,43 +58,43 @@
                 <th>Hobbies</th>
             </tr>
             <tr>
-                <td>Frontend</td>
-                <td>HTML</td>
-                <td>Music</td>
+                <td><li class="job-position-li"> Frontend</li></td>
+                <td><li class="table-li"> HTML</li></td>
+                <td><li class="music-li">Music</li></td>
             </tr>
             <tr>
-                <td>Fullstack</td>
-                <td>CSS</td>
-                <td>Photography</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>JavaScript (jQuery)</td>
-                <td>Reading</td>
+                <td><li class="job-position-li"> Fullstack</li></td>
+                <td><li class="table-li"> CSS</li></td>
+                <td><li class="camera-list-style">Photography</li></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Bootstrap</td>
-                <td>Traveling</td>
+                <td><li class="table-li"> JavaScript (jQuery)</li></td>
+                <td><li class="book-list-style">Reading</li></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Sass</td>
-                <td></td>
+                <td><li class="table-li"> Bootstrap</li></td>
+                <td><li class="traveling-list-style"> Traveling</li></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Node JS</td>
+                <td><li class="table-li"> Sass</li></td>
                 <td></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Express</td>
+                <td><li class="table-li"> Node JS</li></td>
                 <td></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Mongo DB</td>
+                <td><li class="table-li"> Express</li></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><li class="table-li"> Mongo DB</li></td>
                 <td></td>
             </tr>
             </table>
@@ -126,7 +143,7 @@
 
     <div id="contact">
         <h3>Contact me</h3>
-        <form action="/action_page.php">
+        <form action="">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter name..">
         
@@ -162,5 +179,6 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="typed.js"></script>
     <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
