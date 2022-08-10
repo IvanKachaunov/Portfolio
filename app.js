@@ -2,6 +2,17 @@ let hamburgerMenu = document.getElementsByClassName("mobile-nav")[0];
 let mobileNavMenu = document.getElementsByClassName("mobile-nav-menu")[0];
 
 
+function logo(){
+
+document.querySelector(".logo").addEventListener('click', () => {
+    setTimeout(() => {
+        console.log("Window is fully loaded!");
+        window.location.reload(true);
+    }, 300);
+});
+
+}
+
 function hamburgerNav(){
 
     hamburgerMenu.addEventListener("click", function(){       
@@ -14,7 +25,16 @@ function hamburgerNav(){
 }
 
 function executeFunctions(){
+    logo();
     hamburgerNav();
 }
 
 executeFunctions();
+
+// $(document).ready(function(){
+
+//     $(".mobile-nav").click(function(){
+//             $(".mobile-nav-menu").toggle(300);
+//     })
+
+// })
