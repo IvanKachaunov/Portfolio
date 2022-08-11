@@ -4,10 +4,10 @@ var typed = new Typed('.typed', {
      * @property {string} stringsElement ID of element containing string children
      */
     strings: [
-      'i am a <span class="activity">Frontend Developer</span> <span class="blue">💙</span>',
-      'i am a <span class="activity">Fullstack Developer</span> <span class="blue">💙</span>',
-      'i am a <span class="activity">Freelancer</span>',
-      'i am a <span class="activity">Musician</span>'
+      "I'm a <span class='activity'>Frontend Developer</span> <span class='blue'>💙</span>",
+      "I'm a <span class='activity'>Fullstack Developer</span> <span class='blue'>💙</span>",
+      "I'm a <span class='activity'>Freelancer</span>",
+      "I'm a <span class='activity'>Musician</span>"
     ],
     stringsElement: null,
   
