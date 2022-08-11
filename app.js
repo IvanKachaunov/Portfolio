@@ -21,6 +21,7 @@ function hamburgerNav(){
         } else{
             mobileNavMenu.style.display = "none"
         }
+        document.getElementsByClassName("mobile-nav")[0].classList.toggle("open");
     })
 }
 
