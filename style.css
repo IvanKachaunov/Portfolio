@@ -126,7 +126,7 @@
 
 .image-about-me {
   height: 600px;
-  width: 400px;
+  width: 375px;
 }
 
 #title {
@@ -159,7 +159,6 @@ table {
 }
 
 .music-li {
-  /* list-style-image: url(/images/guitar-list-style.png); */
   list-style-type: "🎸";
 }
 
